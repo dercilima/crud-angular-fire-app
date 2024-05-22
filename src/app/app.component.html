@@ -1,0 +1,19 @@
+<div class="full">
+  <mat-toolbar color="primary">
+    <mat-icon>local_fire_department</mat-icon>
+    <span>Oficina Firestore</span>
+  </mat-toolbar>
+
+  <div class="content">
+    <h1 color="primary">Lista de Tarefas</h1>
+    <app-task
+      *ngFor="let task of tasks"
+      [task]="task"
+      (onClick)="editTask(task)"
+    ></app-task>
+  </div>
+</div>
+
+<button mat-fab (click)="addNewTask()">
+  <mat-icon>add</mat-icon>
+</button>

@@ -1,0 +1,29 @@
+.full {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-toolbar > span {
+  margin-left: 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #D5DFE5;
+}
+
+.content > h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 32px;
+}
+
+button {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+}
