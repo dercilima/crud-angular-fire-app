@@ -13,13 +13,14 @@ mat-toolbar > span {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  background-color: #D5DFE5;
+  background-image: radial-gradient(#4646ea27 1px, transparent 1px);
+  background-size: 23px 23px;
+  background-color: #f5f5f5;
 }
 
 .content > h1 {
-  font-size: 32px;
-  font-weight: 500;
-  margin: 32px;
+  font-weight: 700;
+  margin: 16px 32px;
 }
 
 button {
